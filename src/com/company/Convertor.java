@@ -47,6 +47,7 @@ public class Convertor {
         frame = new JFrame();
         frame.setType(Type.UTILITY);
         frame.setBounds(100, 100, 450, 300);
+        frame.setSize(450,300);
         frame.setTitle("Convertor App");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
